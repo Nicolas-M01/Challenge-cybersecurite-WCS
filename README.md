@@ -10,7 +10,6 @@ Soit inventif et perspicace !
 BONNE CHANCE !
 
 ## 2. INIT  
- 
 ### Instructions :  
 * 8 caractères  
 * Début : Az  
@@ -20,3 +19,11 @@ BONNE CHANCE !
 Nous avons donc un mot de passe dans ce genre :  
 #### **A z _ _ _ _ _ 7**  
 Il y a 5 caractères à trouver : nombres (sauf "5", et lettres minuscules et majuscules à priori sans caractère spécial).  
+
+Nombre de caractères possibles (sans M ni 5) :
+Majuscules (A-Z sauf M) → 25  
+Minuscules (a-z) → 26  
+Chiffres (0-9 sauf 5) → 9  
+→ Total = 25 + 26 + 9 = 60  
+Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :  
+![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)
