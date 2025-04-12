@@ -28,5 +28,8 @@ Chiffres (0-9 sauf 5) → 9
 **60^5 = 777 600 000 combinaisons possibles en tout**  
 
 
-Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :  
+### Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :  
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)
+Il est bien installé.  
+
+### Je prépare un script pour générer la liste de 777 600 000 passwords que je vais rediriger dans un fichier texte pour ensuite générer une attaque par dictionnaire   
