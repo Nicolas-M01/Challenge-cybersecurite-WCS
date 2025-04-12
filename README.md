@@ -33,3 +33,4 @@ Chiffres (0-9 sauf 5) → 9
 Il est bien installé.  
 
 ### Je prépare un script pour générer la liste de 777 600 000 passwords que je vais rediriger dans un fichier texte pour ensuite générer une attaque par dictionnaire   
+
