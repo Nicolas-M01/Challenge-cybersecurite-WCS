@@ -25,7 +25,7 @@ Majuscules (A-Z sauf M) → 25
 Minuscules (a-z) → 26  
 Chiffres (0-9 sauf 5) → 9  
 → Total = 25 + 26 + 9 = 60  
-60^5 = 777 600 000 combinaisons possibles en tout  
+**60^5 = 777 600 000 combinaisons possibles en tout**  
 
 
 Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :  
