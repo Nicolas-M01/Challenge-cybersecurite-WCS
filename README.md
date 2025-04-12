@@ -10,13 +10,12 @@ Soit inventif et perspicace !
 BONNE CHANCE !
 
 ## 2. INIT  
-
-## Craquer mot de passe du dossier ZIP  
+ 
 ### Instructions :  
 * 8 caractères  
 * Début : Az  
 * Fin : 7  
-* Sans : M et 5
+* Sans : M et 5  
 
 Nous avons donc un mot de passe dans ce genre :  
 #### **A z _ _ _ _ _ 7**  
