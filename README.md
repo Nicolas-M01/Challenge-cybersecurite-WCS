@@ -50,13 +50,23 @@ Ce fichier se trouve dans `/usr/share/crunch/charset.lst`.
 ![Capture d'écran 2025-04-13 204153](https://github.com/user-attachments/assets/96e4ba0b-9931-45bf-b1a7-0c734187d81d)  
 
 Je nomme mon nouveau "charset" `TSSRchallenge` comme définie au début, c'est à dire contenant les caractères : `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLNOPQRSTUVWXYZ012346789` (sans "M" ni "5").  
+
 :heavy_exclamation_mark: Attention à ne pas mettre de tabulation, uniquement des espaces, autrement il ne va pas réussir charger le charset.  
 
-![Capture d'écran 2025-04-13 204617](https://github.com/user-attachments/assets/dcd74bd3-5c0a-4202-9716-e26637eabdf5)
+![Capture d'écran 2025-04-13 223144](https://github.com/user-attachments/assets/b7c8643a-0021-4f36-ae5d-a1fc31b4e9f5)
 
+Ensuite on lance la génération de la wordlist. Prévoir assez d'espace disque car 777 600 000 mots de passe, ça prend de la place !  
 
- 
+![Capture d'écran 2025-04-13 223430](https://github.com/user-attachments/assets/d2cb684c-c25d-429a-b972-0fbca404a449)  
 
+### ``crunch 8 8 -f /usr/share/crunch/charset.lst TSSRchallenge -t Az@@@@@7 -o wordlist.txt``
+* `crunch` : lancement de la commande
+* ``8`` : Le premier "8" signifie taille minimale du password  
+* ``8`` : Le deuxième "8" signifie taille maximale du password
+* ``-f /usr/share/crunch/charset.lst`` : indique que l'on indique le chemin d'un fichier de "charset".
+* `TSSRchallenge` : Indique le charset que j'ai créé spécialement pour ce challenge.
+* `-t Az@@@@@7` : On indique un template (-t) puis le template, commençant par "Az" puis les @ pour mentionner n'importe quel caractère présent dans mon charset, puis finissant par "7".
+* ``-o wordlist.txt`` : Permet de rediriger la sortie vers un fichier texte.  
 
 
 
