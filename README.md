@@ -1,15 +1,16 @@
 # Challenge cybersecurite WCS  
 ---
-## 1. Intro  
-Bienvenu dans ce challenge cybersécurité de fin de session TSSR.
+ ## :tada: 1. Intro  
+Bienvenue dans ce challenge cybersécurité de fin de session TSSR.
 Tu peux utiliser tous les outils, techniques, sites web, logiciels, que tu souhaites pour arriver
 à tes fins.
 Les fichiers ou documents fournis peuvent t'aider, ou pas...
-Si tu es bloqué, ton formateur pourra - peut-être - t'aider à avancer !
 Soit inventif et perspicace !
 BONNE CHANCE !
 
-## 2. INIT  
+---
+
+## :tada: 2. INIT  
 ### Instructions :  
 * 8 caractères  
 * Début : Az  
