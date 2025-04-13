@@ -74,7 +74,9 @@ On peut vérifier le nombre de lignes dans notre fichier
 A partir de là notre wordlist est prête, il nous reste plus qu'à utiliser John the ripper pour lancer une attaque par dictionnaire avec ce que l'on vient de créer.  
 
 
-### "John The ripper". Je vérifie qu'il est bien installé  :
+### "John The ripper"  
+
+Je vérifie qu'il est bien installé  :  
 
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)  
 Il est bien installé.  
