@@ -42,9 +42,15 @@ Je vérifie qu'il est bien installé :
 
 
 Son utilisation est finalement simple :  
+Crunch est un générateur de wordlist : Un générateur de wordlist est un petit logiciel permettant de créer à partir de certains caractères définis la totalité des combinaisons possibles !  
+L’ensemble des caractères qui seront utilisés pour générer tous les mots possibles s’appelle le **charset**.  
+Je vais éditer en **root** ce fichier **charset.txt** pour créer ma propre liste.  
+  
+Ce fichier se trouve dans `/usr/share/crunch/charset.lst`.  
+![Capture d'écran 2025-04-13 204153](https://github.com/user-attachments/assets/96e4ba0b-9931-45bf-b1a7-0c734187d81d)
 
-Crunch est un générateur de wordlist : Un générateur de wordlist est un petit logiciel permettant de créer à partir de certains caractères définis la totalité des combinaisons possibles ! L’ensemble des caractères qui seront utilisés pour générer tous les mots possibles s’appelle le **charset**.  
-
+Je nomme mon nouveau "charset" `TSSRchallenge` comme définie au début, c'est à dire contenant les caractères : `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLNOPQRSTUVWXYZ012346789` (sans "M" ni "5").  
+![Capture d'écran 2025-04-13 204617](https://github.com/user-attachments/assets/dcd74bd3-5c0a-4202-9716-e26637eabdf5)
 
 
 
