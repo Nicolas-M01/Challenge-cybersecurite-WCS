@@ -18,7 +18,7 @@ BONNE CHANCE !
 * Sans : M et 5  
 
 Nous avons donc un mot de passe dans ce genre :  
-#### **A z _ _ _ _ _ 7**  
+#### ``A z _ _ _ _ _ 7``  
 Il y a 5 caractères à trouver : nombres (sauf "5", et lettres minuscules et majuscules à priori sans caractère spécial).  
 
 Nombre de caractères possibles (sans M ni 5) :  
@@ -43,7 +43,7 @@ Je vérifie qu'il est bien installé :
 
 Son utilisation est finalement simple :  
 
-
+Crunch est un générateur de wordlist : Un générateur de wordlist est un petit logiciel permettant de créer à partir de certains caractères définis la totalité des combinaisons possibles ! L’ensemble des caractères qui seront utilisés pour générer tous les mots possibles s’appelle le **charset**.  
 
 
 
@@ -57,7 +57,7 @@ Son utilisation est finalement simple :
 
 
 * Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :
-* 
+
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)  
 Il est bien installé.  
 
