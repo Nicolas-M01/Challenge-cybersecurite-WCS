@@ -68,13 +68,13 @@ Ensuite on lance la génération de la wordlist. Prévoir assez d'espace disque 
 * `-t Az@@@@@7` : On indique un template (-t) puis le template, commençant par "Az" puis les @ pour mentionner n'importe quel caractère présent dans mon charset, puis finissant par "7".
 * ``-o wordlist.txt`` : Permet de rediriger la sortie vers un fichier texte.  
 
+On peut vérifier le nombre de lignes dans notre fichier  
+![Capture d'écran 2025-04-13 224428](https://github.com/user-attachments/assets/861731d9-8cee-4502-b6a3-63106945f5e7)  
+
+A partir de là notre wordlist est prête, il nous reste plus qu'à utiliser John the ripper pour lancer une attaque par dictionnaire avec ce que l'on vient de créer.  
 
 
-
-
-
-
-* Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :
+### "John The ripper". Je vérifie qu'il est bien installé  :
 
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)  
 Il est bien installé.  
