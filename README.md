@@ -27,8 +27,36 @@ Chiffres (0-9 sauf 5) → 9
 → Total = 25 + 26 + 9 = 60  
 **60^5 = 777 600 000 combinaisons possibles en tout**  
 
+### :arrow_forward: Kali  
+Afin de me simplifier la vie et d'avoir pas mal de logiciels de pentest installés je vais travailler sur une VM Kali :
+  
+![Capture d'écran 2025-04-13 112924](https://github.com/user-attachments/assets/88f55206-1b8e-4bc3-821a-d83f84601a72)  
 
-### Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :  
+
+### :arrow_forward: Crunch : Wordlist Generator  
+Il serait possible de générer un script Bash assez technique pour générer une wordlist, mais avec 777 600 000 possibilités, le temps pour la créer serait énorme. Après quelques recherches sur internet, il existe un programme sur Linux appelé **Crunch** qui permet de générer facilement et très rapidement des wordlists.  
+Je vérifie qu'il est bien installé :   
+
+![Capture d'écran 2025-04-13 113246](https://github.com/user-attachments/assets/872b9ef9-d8c1-40a6-ac60-36e112e22a4a)
+
+
+Son utilisation est finalement simple :  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Je vais utiliser "John The ripper". Je vérifie qu'il est bien installé  :
+* 
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)  
 Il est bien installé.  
 
