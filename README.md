@@ -87,10 +87,23 @@ A partir de là notre wordlist est prête, il nous reste plus qu'à utiliser Joh
 
 
 
-### "John The ripper"  
+### :arrow_forward:"John The ripper"  
 
+Nous allons utiliser l'outil "John the Ripper" pour lancer l'attaque.  
 Je vérifie qu'il est bien installé  :  
 
 ![Capture d'écran 2025-04-12 202319](https://github.com/user-attachments/assets/a9d95f68-16c6-4e19-ad52-8c6f9889e83b)  
 Il est bien installé.  
+
+#### Je convertis le fichier `TSSRchallenge.zip` en un hash que j'appelle `hashzip` :  
+![Capture d'écran 2025-04-14 101641](https://github.com/user-attachments/assets/a0529d13-a05b-416e-8f01-1a81623d741b)  
+
+#### Lancement de l'attaque (enfin !)  
+
+ça ne prend que quelques secondes et le mot de passe est craqué !  
+![Capture d'écran 2025-04-14 101750](https://github.com/user-attachments/assets/63a57259-a29e-4473-92b9-c806b9ce1d99)
+
+### **`Azh792j7`**  
+
+
 
