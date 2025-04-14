@@ -70,6 +70,11 @@ Ensuite on lance la génération de la wordlist. Prévoir assez d'espace disque 
 
 On peut vérifier le nombre de lignes dans notre fichier  
 ![Capture d'écran 2025-04-13 224428](https://github.com/user-attachments/assets/861731d9-8cee-4502-b6a3-63106945f5e7)  
+C'est bon tout le monde est là :smile:.  
+
+Si on veut vérifier si un mot est présent parmi les millions... :  
+![Capture d'écran 2025-04-14 100542](https://github.com/user-attachments/assets/dd8433c6-efda-4708-bbed-2139ee84851f)
+
 
 A partir de là notre wordlist est prête, il nous reste plus qu'à utiliser John the ripper pour lancer une attaque par dictionnaire avec ce que l'on vient de créer.  
 
