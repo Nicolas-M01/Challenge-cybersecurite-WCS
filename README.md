@@ -73,6 +73,14 @@ On peut vérifier le nombre de lignes dans notre fichier
 
 A partir de là notre wordlist est prête, il nous reste plus qu'à utiliser John the ripper pour lancer une attaque par dictionnaire avec ce que l'on vient de créer.  
 
+### :arrow_forward: Envoi du dossier .zip de la machine physique (sous Windows) vers la VM Kali en SSH  
+![Capture d'écran 2025-04-14 093623](https://github.com/user-attachments/assets/3ff6d197-18ba-4094-9a42-1c08e62355f8)
+
+#### On vérifie sur la VM Kali que le dossier est bien copié  
+
+![Capture d'écran 2025-04-14 094152](https://github.com/user-attachments/assets/61a87938-b7d8-42cf-8ce9-111813795786)
+
+
 
 ### "John The ripper"  
 
