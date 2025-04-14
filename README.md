@@ -103,7 +103,7 @@ Il est bien installé.
 ça ne prend que quelques secondes et le mot de passe est craqué !  
 ![Capture d'écran 2025-04-14 101750](https://github.com/user-attachments/assets/63a57259-a29e-4473-92b9-c806b9ce1d99)
 
-### **`Azh792j7`**  
+### :white_check_mark: **`Azh792j7`** :white_check_mark:  
 
 
 
