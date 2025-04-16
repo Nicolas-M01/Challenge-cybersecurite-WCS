@@ -133,6 +133,14 @@ L’option **rw** force le montage du système de fichiers en **lecture-écritur
 * `init=/bin/bash` : Cette option remplace le programme d’initialisation par défaut (comme systemd) par le shell /bin/bash.  
 Résultat : au lieu de démarrer tout le système normalement, le noyau lance simplement un terminal bash avec les droits root, et c’est tout. Pas de login, pas de services, juste toi et ton terminal.  
 
+#### Ensuite "Ctrl+X" et rebooter.  
+On accède au shell en mode root.  
+![Capture d'écran 2025-04-16 123749](https://github.com/user-attachments/assets/77306d70-14de-4c06-b175-49658d8b2472)  
+
+#### Vérifier si nous avons accès en lecture et écriture au système de fichiers où il y a l'OS :  
+![Capture d'écran 2025-04-16 125846](https://github.com/user-attachments/assets/2d1ab647-ccb5-43f6-941f-59e71d89b94c)  
+Si la commande retourne une ligne avec la valeur « (rw,realtime) » à la fin, cela signifie que vous avez un accès en lecture et en écriture au système de fichiers. Ainsi, il sera possible de changer le mot de passe, car on a les droits d’écriture.  
+
 
 
 
