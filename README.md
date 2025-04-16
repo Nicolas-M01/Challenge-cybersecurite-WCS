@@ -123,7 +123,7 @@ Il existe une possibilité pour palier à ça :
 #### A la fin de la ligne commençant par "Linux" (vers la fin), il faut ajouter `rw init=/bin/bash` (Attention ici le clavier est en qwerty).  
 ![Capture d'écran 2025-04-16 115803](https://github.com/user-attachments/assets/6b66699b-6bd3-40ec-befc-479ab0967b63)  
 
-Explications :  
+:bulb: **Explications :**  
 Quand un système Linux démarre, il suit un processus bien défini : le bootloader (comme GRUB) charge le noyau Linux, qui ensuite exécute le programme d'initialisation :  
 (``init``, souvent ``/sbin/init`` ou ``systemd``). Ce programme est responsable de démarrer tous les services du système.  
 Pour court-circuiter tout ça, et avoir un accès root sans passer par l’authentification on peut le faire via le grub en modifiant les options au démarrage.  
