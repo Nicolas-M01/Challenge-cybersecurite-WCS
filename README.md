@@ -291,8 +291,13 @@ done
 
 rm -f temp_page.html
 
-
 ```
+#### ça marche !  
+![Capture d'écran 2025-04-16 223032](https://github.com/user-attachments/assets/51ea8bc0-d008-4337-8dcf-e72928d55943)  
+![Capture d'écran 2025-04-16 223145](https://github.com/user-attachments/assets/4053357d-4deb-44de-bb0b-821660a6ea0e)  
+
+
+
 
 
 #### On rentre dans la grotte, il y a 100 pages webs 1 page contient le bon mot clé `toison`, (toison d'or)  
