@@ -238,10 +238,8 @@ Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversio
 #### Code d'entrée du site  
 En cherchant dans les trames on tombe sur  
 ![Capture d'écran 2025-04-16 163230](https://github.com/user-attachments/assets/1bded15d-e233-4804-94a1-6d7f202ba884)  
-Effectivmeent il fonctionne  
+Effectivement il fonctionne  
 ![Capture d'écran 2025-04-16 164446](https://github.com/user-attachments/assets/b11a1436-7762-414b-bfb5-ae81328e5f1a)  
-![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
-![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
 
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
@@ -249,15 +247,71 @@ Mot de passe du fichier :
 11 premiers caractères du nom du site (après le https://) trouvé au challenge 1 Et les 6 derniers caractères du mot de passe trouvé au challenge 1  
 Voici le récap :  
 ![Capture d'écran 2025-04-16 215838](https://github.com/user-attachments/assets/40dab55f-d004-4d20-9425-1d930801321b)  
-Trame 19 on a les 2 réunis. Après avoir mis un peu de temps à trouver, voici donc la combinaison :  
-cyber-cours (pour les 11 premiers caractères du site trouvé) + les 6 derniers du mot de passe : S3cr3T
-:white_check_mark: `cyber-coursS3cr3T` :white_check_mark:  
+Trame 19 on a les 2 réunis. Après avoir mis un peu de temps à trouver comme je ne prenais pas les bons codes (pfff), voici donc la combinaison :  
+cyber-cours (pour les 11 premiers caractères du site trouvé) + les 6 derniers du mot de passe : S3cr3T  
+![Capture d'écran 2025-04-16 215524](https://github.com/user-attachments/assets/038840fd-a48b-4318-a413-84158409aa2f)  
+
+:white_check_mark: ☠️ `cyber-coursS3cr3T` :white_check_mark: ☠️  
+
+On ouvre le fichier pdf, et le plus intéressant est ça...    
+![Capture d'écran 2025-04-16 223315](https://github.com/user-attachments/assets/d71396ca-2f4c-464d-bd0d-c4edfed58c5e)  
+
+Ok il faut faire un script pour parcourir les pages web, et rechercher avec "grep", le mot "toison". Bon là je me tourne vers chatGPT et j'ajuste le script :  
+#### création du script  
+![Capture d'écran 2025-04-16 223232](https://github.com/user-attachments/assets/3dd6e2af-9994-478f-ba1d-63ee722c73d3)  
+
+```bash
+#!/bin/bash
+
+# Configuration
+BASE_URL="http://cyber-course.wildcodeschool.com/coffre.php?n=" # URL de base, il reste que le nombre à la fin pour parcourir
+MOT_RECHERCHE="toison"   # mot à chercher
+NB_PAGES=100 # nombre de pages total
+
+# Vérifie que html2text est installé
+command -v html2text >/dev/null 2>&1 || { echo >&2 "html2text n'est pas installé. Lance : sudo apt install html2text"; exit 1; }
+
+# Boucle pour parcourir toutes les pages en commençant par 1 et jusqu'à 100
+for i in $(seq 1 $NB_PAGES); do
+    URL="${BASE_URL}${i}"
+    echo "📄 Page $i : $URL"
+
+    wget -q -O temp_page.html "$URL"
+
+    # Extraction texte propre
+    TEXTE=$(html2text temp_page.html)
+
+    # Affiche si le mot est trouvé
+    if echo "$TEXTE" | grep -qi "$MOT_RECHERCHE"; then
+        echo "✅ Mot trouvé sur la page $i : $URL"
+    else
+        echo "❌ Mot non trouvé"
+    fi
+done
+
+rm -f temp_page.html
+
+
+```
+
+
+#### On rentre dans la grotte, il y a 100 pages webs 1 page contient le bon mot clé `toison`, (toison d'or)  
+![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
+![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
+
+
+
+
+
 
 
 
 ### :arrow_forward: Challenge 3 : trouver l'id  
 Mot de passe du fichier :  
 20 premiers caractères du sha512sum du numéro de coffre trouvé au challenge 2  
+
+
+
 
 ### :arrow_forward: Challenge 4 : trouver le mot de passe  
 Mot de passe du fichier :  
