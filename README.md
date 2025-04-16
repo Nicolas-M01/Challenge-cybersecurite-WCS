@@ -141,12 +141,12 @@ On accède au shell en mode root.
 ![Capture d'écran 2025-04-16 125846](https://github.com/user-attachments/assets/2d1ab647-ccb5-43f6-941f-59e71d89b94c)  
 Si la commande retourne une ligne avec la valeur « (rw,realtime) » à la fin, cela signifie que vous avez un accès en lecture et en écriture au système de fichiers. Ainsi, il sera possible de changer le mot de passe, car on a les droits d’écriture.  
 
-#### Changer le mot de passe de Root avec `passwd` et redémarrer :  
+### :arrow_forward: Changer le mot de passe de Root avec `passwd` et redémarrer :  
 ![Capture d'écran 2025-04-16 130511](https://github.com/user-attachments/assets/59305538-cdab-4bb5-ba69-2a2d8e3c8cfb)  
 ⚠️ Au redémarrage, le clavier rebascule en "azerty", donc attention au mot de passe tapé en "qwerty" juste avant...  
-![Capture d'écran 2025-04-16 130703](https://github.com/user-attachments/assets/7952da76-2f9c-4b03-a6ab-41f400bd67aa)
+![Capture d'écran 2025-04-16 130703](https://github.com/user-attachments/assets/7952da76-2f9c-4b03-a6ab-41f400bd67aa)  
 
-#### Nous sommes maintenant connecté en Root avec notre propre mot de passe de façon définitive ! Tadam !
+### ☠️ Nous sommes maintenant connecté en Root avec notre propre mot de passe de façon définitive ! Tadam ! ☠️  
 #### On liste les utilisateurs existants dans la machine  
 ![Capture d'écran 2025-04-16 131122](https://github.com/user-attachments/assets/d2cce75f-731b-4bed-a8a2-5fc714bc92c4)  
 
