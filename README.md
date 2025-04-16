@@ -49,7 +49,7 @@ Je vais éditer en **root** ce fichier **charset.txt** pour créer ma propre lis
 Ce fichier se trouve dans `/usr/share/crunch/charset.lst`.  
 ![Capture d'écran 2025-04-13 204153](https://github.com/user-attachments/assets/96e4ba0b-9931-45bf-b1a7-0c734187d81d)  
 
-Je nomme mon nouveau "charset" `TSSRchallenge` comme définie au début, c'est à dire contenant les caractères : `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLNOPQRSTUVWXYZ012346789` (sans "M" ni "5").  
+Je nomme mon nouveau "charset" `TSSRchallenge` comme défini au début, c'est à dire contenant les caractères : `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLNOPQRSTUVWXYZ012346789` (sans "M" ni "5").  
 
 :heavy_exclamation_mark: Attention à ne pas mettre de tabulation, uniquement des espaces, autrement il ne va pas réussir charger le charset.  
 
@@ -105,5 +105,11 @@ Il est bien installé.
 
 ### :white_check_mark: **`Azh792j7`** :white_check_mark:  
 
+---
 
+ ## :tada: 3. FILES ?  
+
+---
+ 
+ ## :tada: 4. MAIN  
 
