@@ -300,6 +300,14 @@ rm -f temp_page.html
 ![Capture d'écran 2025-04-16 223032](https://github.com/user-attachments/assets/51ea8bc0-d008-4337-8dcf-e72928d55943)  
 ![Capture d'écran 2025-04-16 223145](https://github.com/user-attachments/assets/4053357d-4deb-44de-bb0b-821660a6ea0e)  
 
+#### Modif du code HTML de la page contenant le coffre  
+![Capture d'écran 2025-04-16 225714](https://github.com/user-attachments/assets/64c56d77-8db4-4300-b17d-ad2c2e9263e1)  
+Je le change en "enabled"  
+![Capture d'écran 2025-04-16 225624](https://github.com/user-attachments/assets/d0bd49e8-b69f-4183-9ae0-4400e6d3b05b)  
+ça fonctionne !  
+![Capture d'écran 2025-04-16 225641](https://github.com/user-attachments/assets/37af866b-ac00-4a98-ac20-cf193a9d5099)  
+
+
 
 
 12432de68e64f6941732
