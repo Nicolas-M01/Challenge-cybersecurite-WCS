@@ -9,8 +9,9 @@ Soit inventif et perspicace !
 BONNE CHANCE !
 
 ---
-
-## :tada: 2. INIT  
+<details>
+<summary><h1>## :tada: 2. INIT<h1></summary>
+  
 ### Instructions :  
 * 8 caractères  
 * Début : Az  
@@ -104,6 +105,8 @@ Il est bien installé.
 ![Capture d'écran 2025-04-14 101750](https://github.com/user-attachments/assets/63a57259-a29e-4473-92b9-c806b9ce1d99)
 
 ### :white_check_mark: **`Azh792j7`** :white_check_mark:  
+
+</details>
 
 ---
 
