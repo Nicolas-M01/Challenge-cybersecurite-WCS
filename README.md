@@ -190,8 +190,10 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 </details>  
 
 ---
- 
- ## :tada: 4. MAIN  
+
+
+<details>
+<summary><h1>:tada: 4. MAIN <h1></summary>
 
 ### :arrow_forward: Challenge 1 : trouver url et mot de passe  
 Mot de passe du fichier :
@@ -214,4 +216,4 @@ Mot de passe du fichier :
 Date de naissance (en français) sur 6 chiffres concatenée avec le nom de famille  
 
 
-
+</details>
