@@ -146,7 +146,7 @@ Si la commande retourne une ligne avec la valeur « (rw,realtime) » à la fin, 
 ⚠️ Au redémarrage, le clavier rebascule en "azerty", donc attention au mot de passe tapé en "qwerty" juste avant...  
 ![Capture d'écran 2025-04-16 130703](https://github.com/user-attachments/assets/7952da76-2f9c-4b03-a6ab-41f400bd67aa)  
 
-### :white_check_mark: ☠️ Nous sommes connecté en Root avec notre propre mot de passe de façon définitive ! ☠️ :white_check_mark:  
+### :white_check_mark: ☠️ Nous sommes connectés en Root avec notre propre mot de passe de façon définitive ! ☠️ :white_check_mark:  
 #### On liste les utilisateurs existants dans la machine  
 ![Capture d'écran 2025-04-16 131122](https://github.com/user-attachments/assets/d2cce75f-731b-4bed-a8a2-5fc714bc92c4)  
 
@@ -157,6 +157,11 @@ Je liste le contenu de leurs dossiers :
 
 * **wildssh**  
 ![Capture d'écran 2025-04-16 132336](https://github.com/user-attachments/assets/a26f6c5b-e43e-4b87-9246-b198571daf67)  
+
+A priori, seul les fichiers .zip de "ftponly" semblent intéressants pour le moment. Il me faut les dézipper, pour celà je dois télécharger un outil pour dézipper et donc paramétrer une connexion internet...  
+
+### :white_check_mark: Paramétrage réseau :white_check_mark:  
+
 
 
 ---
