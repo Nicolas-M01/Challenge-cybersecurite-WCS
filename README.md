@@ -179,6 +179,7 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 
 ### :arrow_forward: Téléchargement `Zip` & `Unzip`  
 ![Capture d'écran 2025-04-16 145203](https://github.com/user-attachments/assets/a277bc24-3cb0-4dbd-81a2-4fcc7f6e022e)  
+( Finalement uniquement `unzip` était utile)  
 
 ### :arrow_forward: décompresser les zip  
 ça fonctionne  
