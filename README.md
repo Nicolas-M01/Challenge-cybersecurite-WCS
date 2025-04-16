@@ -127,6 +127,12 @@ Il existe une possibilité pour palier à ça :
 Quand un système Linux démarre, il suit un processus bien défini : le bootloader (comme GRUB) charge le noyau Linux, qui ensuite exécute le programme d'initialisation :  
 (``init``, souvent ``/sbin/init`` ou ``systemd``). Ce programme est responsable de démarrer tous les services du système.  
 Pour court-circuiter tout ça, et avoir un accès root sans passer par l’authentification on peut le faire via le grub en modifiant les options au démarrage.  
+**`rw init=/bin/bash`** :  
+* `rw` : Par défaut, au tout début du démarrage, la partition racine (/) est montée en **lecture seule** **(read-only, ro)** pour des raisons de sécurité.  
+L’option **rw** force le montage du système de fichiers en **lecture-écriture**, ce qui est nécessaire si tu veux modifier des fichiers système (comme changer un mot de passe, éditer fstab, etc.).  
+* `init=/bin/bash` : Cette option remplace le programme d’initialisation par défaut (comme systemd) par le shell /bin/bash.  
+Résultat : au lieu de démarrer tout le système normalement, le noyau lance simplement un terminal bash avec les droits root, et c’est tout. Pas de login, pas de services, juste toi et ton terminal.  
+
 
 
 
