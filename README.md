@@ -177,7 +177,14 @@ Avec ça on ve pas aller loin il faut tout paramétrer
 
 A partir de là nous avons internet, je peux télécharger les outils pour dézipper.  
 
+### :arrow_forward: Téléchargement `Zip` & `Unzip`  
+![Capture d'écran 2025-04-16 145203](https://github.com/user-attachments/assets/a277bc24-3cb0-4dbd-81a2-4fcc7f6e022e)  
 
+### :arrow_forward: décompresser les zip  
+ça fonctionne  
+![Capture d'écran 2025-04-16 145604](https://github.com/user-attachments/assets/c414a626-0150-44df-8a79-32189b20079b)  
+
+:white_check_mark: **La suite au numéro 4...**  
 
 
 </details>  
