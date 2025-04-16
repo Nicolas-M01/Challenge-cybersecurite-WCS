@@ -197,10 +197,10 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 <summary><h1>:tada: 4. MAIN <h1></summary>
 
 #### :disappointed_relieved: Je n'arrive pas  à trouver le premier mot de passe avec les indications... donc j'envoie tous les fichiers zip sur Kali pour faire une attaque par dictionnaire (au moins pour la première)  
-paramétrage de la carte réseau sur Kali pour être en DHCP et surtout sur le même réseau que la Debian.  
+#### Paramétrage de la carte réseau sur Kali pour être en DHCP et surtout sur le même réseau que la Debian.  
 ![Capture d'écran 2025-04-16 151932](https://github.com/user-attachments/assets/cf41b8eb-76ea-4a6e-bb60-8c9bdf7bb3e9)  
 ![Capture d'écran 2025-04-16 152022](https://github.com/user-attachments/assets/6bec3a50-b7d0-49b1-a6b4-c3b2a61d4c0e)  
-#### elles communiquent entre elles :  
+#### Elles communiquent entre elles :  
 ![Capture d'écran 2025-04-16 152114](https://github.com/user-attachments/assets/8c217498-c3bc-4fc8-a731-3233e75b2de6)  
 #### Le service SSH client est installé et activé sur la Debian (le serveur est également fonctionnel sur Kali :  
 ![Capture d'écran 2025-04-16 152411](https://github.com/user-attachments/assets/6da55a58-dde4-4fee-82f7-a6c5b9d3e49c)  
