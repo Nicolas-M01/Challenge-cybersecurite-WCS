@@ -10,7 +10,7 @@ BONNE CHANCE !
 
 ---
 <details>
-<summary><h1>## :tada: 2. INIT<h1></summary>
+<summary><h1>:tada: 2. INIT<h1></summary>
   
 ### Instructions :  
 * 8 caractères  
