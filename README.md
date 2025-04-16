@@ -113,3 +113,25 @@ Il est bien installé.
  
  ## :tada: 4. MAIN  
 
+### Challenge 1 : trouver url et mot de passe  
+Mot de passe du fichier :
+Mot de passe classique de la formation concaténé avec la somme des 2 ports utilisée dans la première partie. Si tu as utilisé une méthode sans utilisation de port spécifique, demande à ton formateur le mot de passe...  
+
+### Challenge 2 : trouver le nombre  
+Mot de passe du fichier :
+11 premiers caractères du nom du site (après le https://) trouvé au challenge 1 Et les 6 derniers caractères du mot de passe trouvé au challenge 1  
+
+### Challenge 3 : trouver l'id  
+Mot de passe du fichier :  
+20 premiers caractères du sha512sum du numéro de coffre trouvé au challenge 2  
+
+### Challenge 4 : trouver le mot de passe  
+Mot de passe du fichier :  
+10 premiers chiffres du code du bouton (trouvé au challenge 3) mis au cube  
+
+### Challenge 5 : trouver le mot de passe  
+Mot de passe du fichier :  
+Date de naissance (en français) sur 6 chiffres concatenée avec le nom de famille  
+
+
+
