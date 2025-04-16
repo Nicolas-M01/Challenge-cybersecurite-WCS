@@ -196,9 +196,24 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 <details>
 <summary><h1>:tada: 4. MAIN <h1></summary>
 
+#### Je n'arrive à trouver le premier mot de passe avec les indications... donc j'envoie tous les fichiers zip sur Kali pour faire une attaque par dictionnaire (au moins pour la première)  
+paramétrage de la carte réseau sur Kali pour être en DHCP et surtout sur le même réseau que la Debian.  
+![Capture d'écran 2025-04-16 151932](https://github.com/user-attachments/assets/cf41b8eb-76ea-4a6e-bb60-8c9bdf7bb3e9)  
+![Capture d'écran 2025-04-16 152022](https://github.com/user-attachments/assets/6bec3a50-b7d0-49b1-a6b4-c3b2a61d4c0e)  
+#### elles communiquent entre elles :  
+![Capture d'écran 2025-04-16 152114](https://github.com/user-attachments/assets/8c217498-c3bc-4fc8-a731-3233e75b2de6)  
+#### Le service SSH client est installé et activé sur la Debian (le serveur est également fonctionnel sur Kali :  
+![Capture d'écran 2025-04-16 152411](https://github.com/user-attachments/assets/6da55a58-dde4-4fee-82f7-a6c5b9d3e49c)  
+#### Envoi des fichiers en SSH avec SCP :  
+![Capture d'écran 2025-04-16 152713](https://github.com/user-attachments/assets/6399f75c-3c8a-47f2-8834-667f62a26708)  
+#### Vérification de la bonne réception des fichiers  
+![Capture d'écran 2025-04-16 152743](https://github.com/user-attachments/assets/011cafed-a6ac-47ce-ae25-2006163b755f)  
+
+
+
 ### :arrow_forward: Challenge 1 : trouver url et mot de passe  
-Mot de passe du fichier :
-Mot de passe classique de la formation concaténé avec la somme des 2 ports utilisée dans la première partie. Si tu as utilisé une méthode sans utilisation de port spécifique, demande à ton formateur le mot de passe...  
+#### Mot de passe du fichier : Mot de passe classique de la formation concaténé avec la somme des 2 ports utilisée dans la première partie. Si tu as utilisé une méthode sans utilisation de port spécifique, demande à ton formateur le mot de passe...  
+
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
 Mot de passe du fichier :
