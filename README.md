@@ -227,18 +227,28 @@ Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversio
 ![Capture d'écran 2025-04-16 155505](https://github.com/user-attachments/assets/6ebf681a-5e9f-4c12-a520-64c93acff9d1)  
 #### Ouverture du PDF  
 ![Capture d'écran 2025-04-16 155630](https://github.com/user-attachments/assets/8fa81190-e89c-43ce-bd0e-1be45873ca77)  
+![Capture d'écran 2025-04-16 164701](https://github.com/user-attachments/assets/95ad9b14-493f-4a32-bb28-8f22b78e885a)  
+
 #### Visiblement il y a un fichier Wireshark à DL  
 ![Capture d'écran 2025-04-16 160821](https://github.com/user-attachments/assets/7e774416-66e9-4564-ac41-c3ee3638dcc3)  
 #### Ouverture du fichier avec les trames ethernet. Mon instinct me dit que je dois regarder dans le protocole HTTP pour avoir une adresse URL, je choisis la première, Bingo  
 ![Capture d'écran 2025-04-16 161241](https://github.com/user-attachments/assets/33c5688a-c842-43f6-b498-f68ddec50bd4)  
 #### L'entrée de la grotte !  
 ![Capture d'écran 2025-04-16 161633](https://github.com/user-attachments/assets/674e55d4-eee3-4d35-aa50-143fb813d2f7)  
-
+#### Code d'entrée du site  
+En cherchant dans les trames on tombe sur  
+![Capture d'écran 2025-04-16 163230](https://github.com/user-attachments/assets/1bded15d-e233-4804-94a1-6d7f202ba884)  
+Effectivmeent il fonctionne  
+![Capture d'écran 2025-04-16 164446](https://github.com/user-attachments/assets/b11a1436-7762-414b-bfb5-ae81328e5f1a)  
 
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
 Mot de passe du fichier :
 11 premiers caractères du nom du site (après le https://) trouvé au challenge 1 Et les 6 derniers caractères du mot de passe trouvé au challenge 1  
+Il y avait 2 sites + 1 lien de DL dans le PDF challenge1. Voici le récap :  
+![Capture d'écran 2025-04-16 164701](https://github.com/user-attachments/assets/c630bd60-a223-4a36-b2ab-881c46bb7372)
+![Capture d'écran 2025-04-16 154844](https://github.com/user-attachments/assets/bf2ff800-9894-4744-8366-d4ce4acdd039)
+developer.mty1*43
 
 ### :arrow_forward: Challenge 3 : trouver l'id  
 Mot de passe du fichier :  
