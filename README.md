@@ -224,6 +224,12 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 :white_check_mark: **`Azerty1*43`** Bam craqué !  
 Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversion du verr. num. !  
 
+![Capture d'écran 2025-04-16 155505](https://github.com/user-attachments/assets/6ebf681a-5e9f-4c12-a520-64c93acff9d1)  
+
+![Capture d'écran 2025-04-16 155630](https://github.com/user-attachments/assets/8fa81190-e89c-43ce-bd0e-1be45873ca77)  
+
+
+
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
 Mot de passe du fichier :
