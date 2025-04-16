@@ -168,8 +168,8 @@ A priori, seul les fichiers .zip de "ftponly" semblent intéressants pour le mom
 ### :white_check_mark: Paramétrage réseau :white_check_mark:  
 
 
+</details>  
 
-</details>
 ---
  
  ## :tada: 4. MAIN  
