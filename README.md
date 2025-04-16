@@ -256,6 +256,10 @@ cyber-cours (pour les 11 premiers caractères du site trouvé) + les 6 derniers 
 On ouvre le fichier pdf, et le plus intéressant est ça...    
 ![Capture d'écran 2025-04-16 223315](https://github.com/user-attachments/assets/d71396ca-2f4c-464d-bd0d-c4edfed58c5e)  
 
+#### On rentre dans la grotte, il y a 100 pages webs 1 page contient le bon mot clé `toison`, (toison d'or)  
+![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
+![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
+
 Ok il faut faire un script pour parcourir les pages web, et rechercher avec "grep", le mot "toison". Bon là je me tourne vers chatGPT et j'ajuste le script :  
 #### création du script  
 ![Capture d'écran 2025-04-16 223232](https://github.com/user-attachments/assets/3dd6e2af-9994-478f-ba1d-63ee722c73d3)  
@@ -300,9 +304,6 @@ rm -f temp_page.html
 
 
 
-#### On rentre dans la grotte, il y a 100 pages webs 1 page contient le bon mot clé `toison`, (toison d'or)  
-![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
-![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
 
 
 
