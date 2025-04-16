@@ -163,9 +163,21 @@ Je liste le contenu de leurs dossiers :
 * **wildssh**  
 ![Capture d'écran 2025-04-16 132336](https://github.com/user-attachments/assets/a26f6c5b-e43e-4b87-9246-b198571daf67)  
 
-A priori, seul les fichiers .zip de "ftponly" semblent intéressants pour le moment. Il me faut les dézipper, pour celà je dois télécharger un outil pour dézipper et donc paramétrer une connexion internet...  
+A priori, seuls les fichiers .zip de "ftponly" semblent intéressants pour le moment. Il me faut les dézipper, pour celà je dois télécharger un outil pour dézipper et donc paramétrer une connexion internet...  
 
-### :white_check_mark: Paramétrage réseau :white_check_mark:  
+### :arrow_forward: Paramétrage réseau  
+Avec ça on ve pas aller loin il faut tout paramétrer  
+![Capture d'écran 2025-04-16 143600](https://github.com/user-attachments/assets/46b47be4-8b8d-4a0e-b32a-1837f6199808)  
+#### Paramétrage dans le fichier de conf. avec le nom de la première carte fournie par `ip a`. En mode DHCP :  
+![Capture d'écran 2025-04-16 143638](https://github.com/user-attachments/assets/002245f8-021f-44bd-b405-23817ec1e73a)  
+#### Redémarrage du service et vérif de la config  
+![Capture d'écran 2025-04-16 143722](https://github.com/user-attachments/assets/5696f056-6398-49f9-9e83-91e416cac390)
+#### Ping Google  
+![Capture d'écran 2025-04-16 143749](https://github.com/user-attachments/assets/d5d65540-46b4-4587-bdf5-1650dedcf16b)  
+
+A partir de là nous avons internet, je peux télécharger les outils pour dézipper.  
+
+
 
 
 </details>  
