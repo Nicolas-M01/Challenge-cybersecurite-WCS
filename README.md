@@ -221,11 +221,11 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 #### Attaque avec John  
 ![Capture d'écran 2025-04-16 154844](https://github.com/user-attachments/assets/29ada736-4ea3-42ac-be30-3207591d5344)  
 
-:white_check_mark: **`Azerty1*43`** Bam craqué !  
+:white_check_mark: ☠️ **`Azerty1*43`** Bam craqué ! :white_check_mark: ☠️  
 Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversion du verr. num. !  
-
+#### Mot de passe fonctionne  
 ![Capture d'écran 2025-04-16 155505](https://github.com/user-attachments/assets/6ebf681a-5e9f-4c12-a520-64c93acff9d1)  
-
+#### Ouverture du PDF  
 ![Capture d'écran 2025-04-16 155630](https://github.com/user-attachments/assets/8fa81190-e89c-43ce-bd0e-1be45873ca77)  
 
 
