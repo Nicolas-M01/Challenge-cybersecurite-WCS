@@ -110,7 +110,9 @@ Il est bien installé.
 
 ---
 
- ## :tada: 3. FILES ?  
+<details>
+<summary><h1>:tada: 3. FILES ? <h1></summary>
+ 
 
 La machine est protégées par un mot de passe et non n'avons aucune information...  
 Il existe une possibilité pour palier à ça :  
@@ -167,6 +169,7 @@ A priori, seul les fichiers .zip de "ftponly" semblent intéressants pour le mom
 
 
 
+</details>
 ---
  
  ## :tada: 4. MAIN  
