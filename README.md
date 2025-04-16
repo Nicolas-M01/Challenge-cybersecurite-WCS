@@ -229,7 +229,8 @@ Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversio
 ![Capture d'écran 2025-04-16 155630](https://github.com/user-attachments/assets/8fa81190-e89c-43ce-bd0e-1be45873ca77)  
 #### Visiblement il y a un fichier Wireshark à DL  
 ![Capture d'écran 2025-04-16 160821](https://github.com/user-attachments/assets/7e774416-66e9-4564-ac41-c3ee3638dcc3)  
-
+#### Ouverture du fichier avec les trames ethernet. Mon instinct me dit que je dois regarder dans le protocole HTTP pour avoir une adresse URL, je choisis la première, Bingo  
+![Capture d'écran 2025-04-16 161241](https://github.com/user-attachments/assets/33c5688a-c842-43f6-b498-f68ddec50bd4)  
 
 
 
