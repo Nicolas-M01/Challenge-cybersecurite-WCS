@@ -1,4 +1,4 @@
-# Challenge cybersecurite WCS  
+# Challenge Cybersecurite WCS  
 ---
  ## :tada: 1. Intro  
 Bienvenue dans ce challenge cybersécurité de fin de session TSSR.
