@@ -109,7 +109,21 @@ Il est bien installé.
 
  ## :tada: 3. FILES ?  
 
-# EN COURS....
+La machine est protégées par un mot de passe et non n'avons aucune information...  
+Il existe une possibilité pour palier à ça :  
+
+### Modifier le Grub de Debian pour se connecter au Shell en Root et ensuite modifier le mot de passe.  
+
+#### Accéder au Grub au démarrage nous avons cette fenêtre :  
+![Capture d'écran 2025-04-16 115037](https://github.com/user-attachments/assets/61eeb07a-c866-443b-9cb1-d2fee9a245c6)  
+
+#### Cliquer sur **`e`** et on peut éditer le contenu du Grub, nous arrivons à cette fenêtre :  
+![Capture d'écran 2025-04-16 115152](https://github.com/user-attachments/assets/665dfe41-d5da-4cbd-bda2-f610df3240f7)  
+
+####
+![Capture d'écran 2025-04-16 115803](https://github.com/user-attachments/assets/6b66699b-6bd3-40ec-befc-479ab0967b63)
+
+
 ---
  
  ## :tada: 4. MAIN  
