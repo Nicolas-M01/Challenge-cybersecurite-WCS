@@ -150,6 +150,14 @@ Si la commande retourne une ligne avec la valeur « (rw,realtime) » à la fin, 
 #### On liste les utilisateurs existants dans la machine  
 ![Capture d'écran 2025-04-16 131122](https://github.com/user-attachments/assets/d2cce75f-731b-4bed-a8a2-5fc714bc92c4)  
 
+On a 2 utilisateurs **ftponly** et **wildssh**.  
+Je liste le contenu de leurs dossiers :  
+* **ftponly**
+![Capture d'écran 2025-04-16 132225](https://github.com/user-attachments/assets/570291b1-9c87-4f31-8a90-7e1d8f130ab6)  
+
+* **wildssh**  
+![Capture d'écran 2025-04-16 132336](https://github.com/user-attachments/assets/a26f6c5b-e43e-4b87-9246-b198571daf67)  
+
 
 ---
  
