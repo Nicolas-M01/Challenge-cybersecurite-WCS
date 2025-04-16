@@ -214,8 +214,15 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 ### :arrow_forward: Challenge 1 : trouver url et mot de passe  
 #### Mot de passe du fichier : Mot de passe classique de la formation concaténé avec la somme des 2 ports utilisée dans la première partie. Si tu as utilisé une méthode sans utilisation de port spécifique, demande à ton formateur le mot de passe...  
 
-#### Génération d'une wordlist commençant par `Azerty1*` et suivi de 2 chiffres avec redirection vers un fichier (explications de Crunch sont expliquées en haut). PAr défaut, lorsque l'on ne charge pas de "charset", le `%` signifie n'importe quel chiffre      
-![Capture d'écran 2025-04-16 154630](https://github.com/user-attachments/assets/b95da82a-bc11-4100-8a22-68abeceb59a3)
+#### Génération d'une wordlist commençant par `Azerty1*` et suivi de 2 chiffres avec redirection vers un fichier (explications de Crunch sont expliquées en haut). PAr défaut, lorsque l'on ne charge pas de "charset", le `%` signifie n'importe quel chiffre  
+![Capture d'écran 2025-04-16 154630](https://github.com/user-attachments/assets/b95da82a-bc11-4100-8a22-68abeceb59a3)  
+#### Création du hash  
+![Capture d'écran 2025-04-16 154650](https://github.com/user-attachments/assets/f629e74a-0a0b-40fa-894e-a7c4b3f64c47)  
+#### Attaque avec John  
+![Capture d'écran 2025-04-16 154844](https://github.com/user-attachments/assets/29ada736-4ea3-42ac-be30-3207591d5344)  
+
+:white_check_mark: **`Azerty1*43`** Bam craqué !  
+Je suis sûr de l'avoir tapé au début, je devais avoir un problème d'inversion du verr. num. !  
 
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
