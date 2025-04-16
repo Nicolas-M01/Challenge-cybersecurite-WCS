@@ -240,6 +240,8 @@ En cherchant dans les trames on tombe sur
 ![Capture d'écran 2025-04-16 163230](https://github.com/user-attachments/assets/1bded15d-e233-4804-94a1-6d7f202ba884)  
 Effectivmeent il fonctionne  
 ![Capture d'écran 2025-04-16 164446](https://github.com/user-attachments/assets/b11a1436-7762-414b-bfb5-ae81328e5f1a)  
+![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
+![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
 
 
 ### :arrow_forward: Challenge 2 : trouver le nombre  
