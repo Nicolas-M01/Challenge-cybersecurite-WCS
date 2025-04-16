@@ -112,7 +112,7 @@ Il est bien installé.
 La machine est protégées par un mot de passe et non n'avons aucune information...  
 Il existe une possibilité pour palier à ça :  
 
-### :arrow_forward: Modifier le Grub de Debian pour se connecter au Shell en Root et ensuite modifier le mot de passe.  
+### :arrow_forward: Modifier le Grub de Debian pour se connecter au Shell :shell: en Root :seedling: et ensuite modifier le mot de passe.  
 
 #### Accéder au Grub au démarrage nous avons cette fenêtre :  
 ![Capture d'écran 2025-04-16 115037](https://github.com/user-attachments/assets/61eeb07a-c866-443b-9cb1-d2fee9a245c6)  
@@ -120,8 +120,14 @@ Il existe une possibilité pour palier à ça :
 #### Cliquer sur **`e`** et on peut éditer le contenu du Grub, nous arrivons à cette fenêtre :  
 ![Capture d'écran 2025-04-16 115152](https://github.com/user-attachments/assets/665dfe41-d5da-4cbd-bda2-f610df3240f7)  
 
-#### A la fin de la ligne commençant par "Linux" (vers la fin), il faut ajouter `rw init=/bin/bash`
-![Capture d'écran 2025-04-16 115803](https://github.com/user-attachments/assets/6b66699b-6bd3-40ec-befc-479ab0967b63)
+#### A la fin de la ligne commençant par "Linux" (vers la fin), il faut ajouter `rw init=/bin/bash` (Attention ici le clavier est en qwerty).  
+![Capture d'écran 2025-04-16 115803](https://github.com/user-attachments/assets/6b66699b-6bd3-40ec-befc-479ab0967b63)  
+
+Explications :  
+Quand un système Linux démarre, il suit un processus bien défini : le bootloader (comme GRUB) charge le noyau Linux, qui ensuite exécute le programme d'initialisation :  
+(``init``, souvent ``/sbin/init`` ou ``systemd``). Ce programme est responsable de démarrer tous les services du système.  
+Pour court-circuiter tout ça, et avoir un accès root sans passer par l’authentification on peut le faire via le grub en modifiant les options au démarrage.  
+
 
 
 ---
