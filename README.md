@@ -247,10 +247,13 @@ Effectivmeent il fonctionne
 ### :arrow_forward: Challenge 2 : trouver le nombre  
 Mot de passe du fichier :
 11 premiers caractères du nom du site (après le https://) trouvé au challenge 1 Et les 6 derniers caractères du mot de passe trouvé au challenge 1  
-Il y avait 2 sites + 1 lien de DL dans le PDF challenge1. Voici le récap :  
-![Capture d'écran 2025-04-16 164701](https://github.com/user-attachments/assets/c630bd60-a223-4a36-b2ab-881c46bb7372)
-![Capture d'écran 2025-04-16 154844](https://github.com/user-attachments/assets/bf2ff800-9894-4744-8366-d4ce4acdd039)
-developer.mty1*43
+Voici le récap :  
+![Capture d'écran 2025-04-16 215838](https://github.com/user-attachments/assets/40dab55f-d004-4d20-9425-1d930801321b)  
+Trame 19 on a les 2 réunis. Après avoir mis un peu de temps à trouver, voici donc la combinaison :  
+cyber-cours (pour les 11 premiers caractères du site trouvé) + les 6 derniers du mot de passe : S3cr3T
+:white_check_mark: `cyber-coursS3cr3T` :white_check_mark:  
+
+
 
 ### :arrow_forward: Challenge 3 : trouver l'id  
 Mot de passe du fichier :  
