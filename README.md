@@ -152,7 +152,7 @@ Si la commande retourne une ligne avec la valeur « (rw,realtime) » à la fin, 
 
 On a 2 utilisateurs **ftponly** et **wildssh**.  
 Je liste le contenu de leurs dossiers :  
-* **ftponly**
+* **ftponly**  
 ![Capture d'écran 2025-04-16 132225](https://github.com/user-attachments/assets/570291b1-9c87-4f31-8a90-7e1d8f130ab6)  
 
 * **wildssh**  
