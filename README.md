@@ -326,14 +326,16 @@ Mot de passe du fichier :
 
 
 
-
 ### :arrow_forward: Challenge 4 : trouver le mot de passe  
 Mot de passe du fichier :  
 10 premiers chiffres du code du bouton (trouvé au challenge 3) mis au cube  
 
-#### 15700416^3 = 287 019 840 914 387 344 997. Donc  les 10 premiers chiffres :
+#### 15700416^3 = 287 019 840 914 387 344 997. Donc  les 10 premiers chiffres :  
 :white_check_mark: ☠️ **``3 870 198 409``** ☠️ :white_check_mark:  
-
+![Capture d'écran 2025-04-19 191706](https://github.com/user-attachments/assets/2e4e6014-d892-4c82-bdc0-135233524876)  
+ça marche !  
+![Capture d'écran 2025-04-19 192311](https://github.com/user-attachments/assets/b8071784-a423-4af9-ab3e-324547036f65)  
+![Capture d'écran 2025-04-19 192324](https://github.com/user-attachments/assets/cf71412b-05d5-4b33-af61-8e3108285f4a)  
 
 
 ### :arrow_forward: Challenge 5 : trouver le mot de passe  
