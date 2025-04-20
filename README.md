@@ -337,6 +337,20 @@ Mot de passe du fichier :
 ![Capture d'écran 2025-04-19 192311](https://github.com/user-attachments/assets/b8071784-a423-4af9-ab3e-324547036f65)  
 ![Capture d'écran 2025-04-19 192324](https://github.com/user-attachments/assets/cf71412b-05d5-4b33-af61-8e3108285f4a)  
 
+#### Je me connecte donc à `https://www.db-fiddle.com/`, j'ai aussi téléchargé la BDD et je l'envoie sur db-fiddle.  
+J'obtiens ceci :  
+![Capture d'écran 2025-04-19 194326](https://github.com/user-attachments/assets/3aaf05f1-e82d-4b56-b04b-8c8d0aec79b6)  
+
+Comme je ne connais rien à SQL, je demande à une IA de m'expliquer en gros. Je lance une requête SQL pour connaître les rôles dans la base de données, car je ne sais pas si la personne que je recherche est enregistré sous "Admin", Mécanicien" ou une variante.  
+![Capture d'écran 2025-04-19 194332](https://github.com/user-attachments/assets/6011699f-d42f-4ddd-a36f-8245838c8a96)  
+#### Parfait, il y a un role `admin`   
+![Capture d'écran 2025-04-19 194355](https://github.com/user-attachments/assets/7c694b2b-925d-45cb-8afa-4180660bc885)
+
+
+#### Il ne reste plus qu'à le localiser, avec une nouvelle requête :  
+![Capture d'écran 2025-04-19 194449](https://github.com/user-attachments/assets/327e6195-cddf-4e43-8ae4-b87710e5fb61)  
+
+
 
 ### :arrow_forward: Challenge 5 : trouver le mot de passe  
 Mot de passe du fichier :  
