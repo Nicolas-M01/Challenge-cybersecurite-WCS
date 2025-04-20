@@ -189,7 +189,7 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 
 ### :arrow_forward: Téléchargement `Zip` & `Unzip`  
 ![Capture d'écran 2025-04-16 145203](https://github.com/user-attachments/assets/a277bc24-3cb0-4dbd-81a2-4fcc7f6e022e)  
-( Finalement uniquement `unzip` était utile)  
+(Finalement uniquement `unzip` était utile)  
 
 ### :arrow_forward: décompresser les zip  
 ça fonctionne  
@@ -212,7 +212,7 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 ![Capture d'écran 2025-04-16 152022](https://github.com/user-attachments/assets/6bec3a50-b7d0-49b1-a6b4-c3b2a61d4c0e)  
 #### Elles communiquent entre elles :  
 ![Capture d'écran 2025-04-16 152114](https://github.com/user-attachments/assets/8c217498-c3bc-4fc8-a731-3233e75b2de6)  
-#### Le service SSH client est installé et activé sur la Debian (le serveur est également fonctionnel sur Kali :  
+#### Le service SSH client est installé et activé sur la Debian (le serveur est également fonctionnel sur Kali) :  
 ![Capture d'écran 2025-04-16 152411](https://github.com/user-attachments/assets/6da55a58-dde4-4fee-82f7-a6c5b9d3e49c)  
 #### Envoi des fichiers en SSH avec SCP :  
 ![Capture d'écran 2025-04-16 152713](https://github.com/user-attachments/assets/6399f75c-3c8a-47f2-8834-667f62a26708)  
@@ -224,7 +224,7 @@ A partir de là nous avons internet, je peux télécharger les outils pour dézi
 ### :arrow_forward: Challenge 1 : trouver url et mot de passe  
 #### Mot de passe du fichier : Mot de passe classique de la formation concaténé avec la somme des 2 ports utilisée dans la première partie. Si tu as utilisé une méthode sans utilisation de port spécifique, demande à ton formateur le mot de passe...  
 
-#### Génération d'une wordlist commençant par `Azerty1*` et suivi de 2 chiffres avec redirection vers un fichier (explications de Crunch sont expliquées en haut). PAr défaut, lorsque l'on ne charge pas de "charset", le `%` signifie n'importe quel chiffre  
+#### Génération d'une wordlist commençant par `Azerty1*` et suivi de 2 chiffres avec redirection vers un fichier (explications de Crunch sont expliquées en haut). Par défaut, lorsque l'on ne charge pas de "charset", le `%` signifie n'importe quel chiffre  
 ![Capture d'écran 2025-04-16 154630](https://github.com/user-attachments/assets/b95da82a-bc11-4100-8a22-68abeceb59a3)  
 #### Création du hash  
 ![Capture d'écran 2025-04-16 154650](https://github.com/user-attachments/assets/f629e74a-0a0b-40fa-894e-a7c4b3f64c47)  
@@ -270,7 +270,7 @@ On ouvre le fichier pdf, et le plus intéressant est ça...
 ![Capture d'écran 2025-04-16 174714](https://github.com/user-attachments/assets/473aaad4-3247-4e3b-b708-cb4fdc2e0888)  
 ![Capture d'écran 2025-04-16 174725](https://github.com/user-attachments/assets/e7533e3c-d1b0-4e5a-9122-2767ea4e5d9c)  
 
-Ok il faut faire un script pour parcourir les pages web, et rechercher avec "grep", le mot "toison". Bon là je me tourne vers chatGPT et j'ajuste le script :  
+Ok il faut faire un script pour parcourir les pages web, et rechercher avec "grep", le mot "toison". Bon là je me tourne vers chatGPT, j'ajuste le script et j'ajoute les commentaires :  
 #### création du script  
 ![Capture d'écran 2025-04-16 223232](https://github.com/user-attachments/assets/3dd6e2af-9994-478f-ba1d-63ee722c73d3)  
 
@@ -306,7 +306,7 @@ for i in $(seq 1 $NB_PAGES); do
     fi
 done
 
-# supprime le fichier tempraire une fois que tout est terminé.
+# supprime le fichier temporaire une fois que tout est terminé.
 rm -f temp_page.html
 
 ```
@@ -335,7 +335,7 @@ Mot de passe du fichier :
 * On affiche notre numéro de coffre avec `echo`, mais on ajoute l'option `-n` pour éviter le saut de ligne  
 * Ensuite on met un pipe "|" pour envoyer la commande à `sha512sum` qui va générer un hash en sha512.  
 Et ça marche.
-#### Si on veut générer la sha512 et récupérer que les 20 premiers caractères, on ajoute la commande cut par un "pip" avec les bons paramètres  
+#### Si on veut générer la sha512 et récupérer que les 20 premiers caractères, on ajoute la commande cut par un "pipe" avec les bons paramètres  
 ![Capture d'écran 2025-04-20 114843](https://github.com/user-attachments/assets/9cfbdb51-664f-473d-9327-4e389e968814)  
 ![Capture d'écran 2025-04-20 115100](https://github.com/user-attachments/assets/ede8f26d-e198-41cc-9efd-c6c582150b6e)  
 
@@ -353,7 +353,7 @@ Et ça marche.
 Mot de passe du fichier :  
 10 premiers chiffres du code du bouton (trouvé au challenge 3) mis au cube  
 
-#### 15700416^3 = 287 019 840 914 387 344 997. Donc  les 10 premiers chiffres :  
+#### 15700416^3 = 387 019 840 914 387 344 997. Donc  les 10 premiers chiffres :  
 :white_check_mark: ☠️ **``3 870 198 409``** ☠️ :white_check_mark:  
 ![Capture d'écran 2025-04-19 191706](https://github.com/user-attachments/assets/2e4e6014-d892-4c82-bdc0-135233524876)  
 ça marche !  
