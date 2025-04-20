@@ -311,10 +311,6 @@ Je le change en "enabled"
 
 
 
-
-
-
-
 ### :arrow_forward: Challenge 3 : trouver l'id  
 Mot de passe du fichier :  
 20 premiers caractères du sha512sum du numéro de coffre trouvé au challenge 2  
@@ -330,6 +326,16 @@ Et ça marche.
 ![Capture d'écran 2025-04-20 115100](https://github.com/user-attachments/assets/ede8f26d-e198-41cc-9efd-c6c582150b6e)  
 
 :white_check_mark: ☠️ `861522120d559ea5f946` :white_check_mark: ☠️  
+
+![Capture d'écran 2025-04-20 115431](https://github.com/user-attachments/assets/9d0bde1f-b3c5-4fe9-9bba-6a605569ed99)  
+![Capture d'écran 2025-04-20 115442](https://github.com/user-attachments/assets/0c066df4-e469-479d-83ac-ea9ed7f515fb)  
+
+
+
+
+
+
+
 
 
 
