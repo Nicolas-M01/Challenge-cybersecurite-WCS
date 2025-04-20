@@ -3,6 +3,11 @@
 ![image](https://github.com/user-attachments/assets/50b7c1a7-4b06-4906-938b-5077a89bc461)
 ![image](https://github.com/user-attachments/assets/37bcb187-2fc0-46f6-a378-5e2e09576b1c)
 ![image](https://github.com/user-attachments/assets/671ace7e-d611-4ba6-8677-b57c1a0a336e)
+![SQL-logo png](https://github.com/user-attachments/assets/861706e3-1e88-4395-9cc1-4ad4fedc4f17)
+
+
+
+
 
 ---
  ## :tada: 1. Intro  
