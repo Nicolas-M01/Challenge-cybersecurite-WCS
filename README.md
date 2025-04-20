@@ -398,9 +398,9 @@ Le fichier contenant le code à craquer s'appellera `finalhash.txt`.
 ![Capture d'écran 2025-04-20 124659](https://github.com/user-attachments/assets/c49c14bc-d861-4faa-aeb3-ccbb7d714943)  
 ![Capture d'écran 2025-04-20 124732](https://github.com/user-attachments/assets/6972b7cc-4ea2-40e5-83f1-42ee391dd1c9)  
 
-#### Je lance `John The Ripper`, en indiquant le chemin de la wordlist, et le format md5 afin qu'il sache qu'il a affaire avec un hash de md5, ainsi que le fichier contenant le hash md5 à craquer.  
+#### Je lance `John The Ripper`, en indiquant le chemin de la wordlist, le format md5 afin qu'il sache qu'il a affaire avec un hash de md5, ainsi que le fichier contenant le hash md5 à craquer.  
 ![Capture d'écran 2025-04-20 125042](https://github.com/user-attachments/assets/b0304d72-8499-4241-a844-f3bd19ef6401)  
-
+En quelques secondes c'est réglé.  
 
 ## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:
 
