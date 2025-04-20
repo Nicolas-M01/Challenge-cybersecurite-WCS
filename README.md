@@ -386,18 +386,21 @@ OUVERTURE DU COFFRE
 Le code de l'admin est `796a80b899e3e787173eff40a3778dd6`. Nous apprenons que c'est en fait un hash en `MD5`.  
 Je ne vais pas suivre les conseils fournis au challenge 5, je vais utiliser John The ripper et générer une wordlist avec `crunch`.  
 le PDF nous dit qu'il y a au moins 8 caractères et que le code est uniquement en alpha numérique, ce qui limite les possibilités, mais c'est encore trop.  
+#### Envoie du code (hash md5) dans un fichier texte (pour pouvoir lancer l'attaque après) :  
+⚠️ il faut enlever le retour à la ligne sinon quand on va créer le hash du fichier ça ne sera pas bon !  
+Le fichier contenant le code à craquer s'appellera `finalhash.txt`.  
+![Capture d'écran 2025-04-20 121551](https://github.com/user-attachments/assets/bf835c86-16eb-4db5-a058-0125a8a0f7be)  
+
 #### Génération d'une wordlist en alphanumérique avec 8 caractères dans les combinaisons... 23To, donc j'abandonne c'est trop gros...  
 ![Capture d'écran 2025-04-20 124019](https://github.com/user-attachments/assets/11184456-cb36-4189-a8c5-58b90d96eea6)  
 
-#### Envoie du code (hash md5) dans un fichier texte (pour pouvoir lancer l'attaque après) :  
-⚠️ il faut enlever le retour à la ligne sinon quand on va créer le hash du fichier ça ne sera pas bon !  
-![Capture d'écran 2025-04-20 121551](https://github.com/user-attachments/assets/bf835c86-16eb-4db5-a058-0125a8a0f7be)  
+#### Tentative avec la fameuse liste `Rockyou.txt` que je télécharge et qui contient 14344391 mots de passe largement utilisés.   
+![Capture d'écran 2025-04-20 124659](https://github.com/user-attachments/assets/c49c14bc-d861-4faa-aeb3-ccbb7d714943)  
+![Capture d'écran 2025-04-20 124732](https://github.com/user-attachments/assets/6972b7cc-4ea2-40e5-83f1-42ee391dd1c9)  
 
+#### Je lance `John The Ripper`, en indiquant le chemin de la wordlist, et le format md5 afin qu'il sache qu'il a affaire avec un hash de md5, ainsi que le fichier contenant le hash md5 à craquer.  
+![Capture d'écran 2025-04-20 125042](https://github.com/user-attachments/assets/b0304d72-8499-4241-a844-f3bd19ef6401)  
 
-#### Création du hash ( pour le coup, on crée un hash du hash md5 :smile: )  
-
-
-#### Tentative avec la fameuse liste `Rockyou.txt`  
 
 
 
