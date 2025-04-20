@@ -272,7 +272,9 @@ BASE_URL="http://cyber-course.wildcodeschool.com/coffre.php?n=" # URL de base, i
 MOT_RECHERCHE="toison"   # mot à chercher
 NB_PAGES=100 # nombre de pages total
 
-# Vérifie que html2text est installé
+# Vérifie que html2text est installé  
+# Cet outil convertit une page HTML en texte brut (plus facile pour chercher un mot dedans)
+# Si ce n’est pas installé, il affiche un message et arrête le script
 command -v html2text >/dev/null 2>&1 || { echo >&2 "html2text n'est pas installé. Lance : sudo apt install html2text"; exit 1; }
 
 # Boucle pour parcourir toutes les pages en commençant par 1 et jusqu'à 100
@@ -280,12 +282,13 @@ for i in $(seq 1 $NB_PAGES); do
     URL="${BASE_URL}${i}"
     echo "📄 Page $i : $URL"
 
+    # Téléchargement de la page web en construisant l'adresse et il la stocke dans un fichier temporaire.  
     wget -q -O temp_page.html "$URL"
 
-    # Extraction texte propre
+    # Transforme le HTML en texte brut avec "html2text"
     TEXTE=$(html2text temp_page.html)
 
-    # Affiche si le mot est trouvé
+    # Cherche le mot et affiche si le mot est trouvé
     if echo "$TEXTE" | grep -qi "$MOT_RECHERCHE"; then
         echo "✅ Mot trouvé sur la page $i : $URL"
     else
@@ -293,6 +296,7 @@ for i in $(seq 1 $NB_PAGES); do
     fi
 done
 
+# supprime le fichier tempraire une fois que tout est terminé.
 rm -f temp_page.html
 
 ```
