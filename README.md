@@ -401,10 +401,13 @@ La différence est qu'ici on va utiliser des mots de passe statistiques qui sont
 
 #### Je lance `John The Ripper`, en indiquant le chemin de la wordlist, le format md5 afin qu'il sache qu'il a affaire avec un hash de md5, ainsi que le fichier contenant le hash md5 à craquer.  
 ![Capture d'écran 2025-04-20 125042](https://github.com/user-attachments/assets/b0304d72-8499-4241-a844-f3bd19ef6401)  
-En quelques secondes c'est réglé.  
+En quelques secondes c'est réglé. :key: :unlock:  
 
 ## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:  
-On a trouvé le mot de passe de l'admin ! Je ne crois pas que ce mot de passe soit recommandé par l'ANSSI...  
+J'ai trouvé le mot de passe de l'admin ! Je ne crois pas que ce mot de passe soit recommandé par l'ANSSI...  
+
+
+
 
 
 </details>
