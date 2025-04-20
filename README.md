@@ -353,7 +353,7 @@ Et ça marche.
 Mot de passe du fichier :  
 10 premiers chiffres du code du bouton (trouvé au challenge 3) mis au cube  
 
-#### 15700416^3 = 387 019 840 914 387 344 997. Donc  les 10 premiers chiffres :  
+#### 15700413^3 = 3 870 198 409 143 870 344 997. Donc  les 10 premiers chiffres :  
 :white_check_mark: ☠️ **``3 870 198 409``** ☠️ :white_check_mark:  
 ![Capture d'écran 2025-04-19 191706](https://github.com/user-attachments/assets/2e4e6014-d892-4c82-bdc0-135233524876)  
 ça marche !  
@@ -364,12 +364,12 @@ Mot de passe du fichier :
 J'obtiens ceci :  
 ![Capture d'écran 2025-04-19 194326](https://github.com/user-attachments/assets/3aaf05f1-e82d-4b56-b04b-8c8d0aec79b6)  
 
-Comme je ne connais rien à SQL, je demande à une IA de m'expliquer en gros. Je lance ensuite une requête SQL pour connaître les rôles dans la base de données, car je ne sais pas si la personne que je recherche est enregistré sous "Admin", Mécanicien" ou une variante.  
+Comme je ne connais rien à SQL, je demande à une IA de m'expliquer en gros. Je lance ensuite une requête SQL pour connaître les rôles dans la base de données, car je ne sais pas si la personne que je recherche est enregistrée sous "Admin", Mécanicien" ou une variante.  
 ![Capture d'écran 2025-04-19 194332](https://github.com/user-attachments/assets/6011699f-d42f-4ddd-a36f-8245838c8a96)  
-Pour lance la requête il faut cliquer sur "Run"  
+Pour lancer la requête il faut cliquer sur "Run"  
 ![Capture d'écran 2025-04-19 194617](https://github.com/user-attachments/assets/62a42873-a496-46fe-9085-65be4f367acf)  
 
-#### Parfait, il y a un role `admin`   
+#### Parfait, il y a un rôle `admin`   
 ![Capture d'écran 2025-04-19 194355](https://github.com/user-attachments/assets/7c694b2b-925d-45cb-8afa-4180660bc885)  
 
 
@@ -395,7 +395,7 @@ Clic droit, choisir l'endroit, rentrer le bon mot de passe
 ![Capture d'écran 2025-04-20 112444](https://github.com/user-attachments/assets/4deccbc8-345c-4206-9e03-583dd3eaaef8)  
 
 
-OUVERTURE DU COFFRE
+DERNIER COFFRE  
 
 Le code de l'admin est `796a80b899e3e787173eff40a3778dd6`. Nous apprenons que c'est en fait un hash en `MD5`.  
 Je ne vais pas suivre les conseils fournis au challenge 5, je vais utiliser John The ripper et générer une wordlist avec `crunch`.  
