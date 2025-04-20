@@ -329,7 +329,7 @@ Et ça marche.
 ![Capture d'écran 2025-04-20 114843](https://github.com/user-attachments/assets/9cfbdb51-664f-473d-9327-4e389e968814)  
 ![Capture d'écran 2025-04-20 115100](https://github.com/user-attachments/assets/ede8f26d-e198-41cc-9efd-c6c582150b6e)  
 
-
+:white_check_mark: ☠️ `861522120d559ea5f946` :white_check_mark: ☠️  
 
 
 
