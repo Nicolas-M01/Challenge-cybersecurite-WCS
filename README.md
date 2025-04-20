@@ -381,6 +381,15 @@ Clic droit, choisir l'endroit, rentrer le bon mot de passe
 ![Capture d'écran 2025-04-20 112444](https://github.com/user-attachments/assets/4deccbc8-345c-4206-9e03-583dd3eaaef8)  
 
 
+OUVERTURE DU COFFRE
+
+Le code de l'admin est `796a80b899e3e787173eff40a3778dd6`. Nous apprenons que c'est en fait un hash en `MD5`.  
+Je ne vais pas suivre les conseils fournis au challenge 5, je vais utiliser John The ripper et générer une wordlist avec `crunch`.  
+le PDF nous dit qu'il y a au moins 8 caractères et que le code est uniquement en alpha numérique, ce qui limite les possibilités.  
+après quelques recherches, je me rend compte qu'un hash en md5, ne fait pas la différence entre majuscules et minuscules et que les lettres sont en hexadécimal.  
+Donc on peut se limiter à `abcdef0123456789`.  
+
+
 
 </details>
 
