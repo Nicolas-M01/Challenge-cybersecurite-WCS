@@ -343,6 +343,9 @@ J'obtiens ceci :
 
 Comme je ne connais rien à SQL, je demande à une IA de m'expliquer en gros. Je lance ensuite une requête SQL pour connaître les rôles dans la base de données, car je ne sais pas si la personne que je recherche est enregistré sous "Admin", Mécanicien" ou une variante.  
 ![Capture d'écran 2025-04-19 194332](https://github.com/user-attachments/assets/6011699f-d42f-4ddd-a36f-8245838c8a96)  
+Pour lance la requête il faut cliquer sur "Run"  
+![Capture d'écran 2025-04-19 194617](https://github.com/user-attachments/assets/62a42873-a496-46fe-9085-65be4f367acf)  
+
 #### Parfait, il y a un role `admin`   
 ![Capture d'écran 2025-04-19 194355](https://github.com/user-attachments/assets/7c694b2b-925d-45cb-8afa-4180660bc885)
 
