@@ -389,7 +389,16 @@ le PDF nous dit qu'il y a au moins 8 caractères et que le code est uniquement e
 #### Génération d'une wordlist en alphanumérique avec 8 caractères dans les combinaisons... 23To, donc j'abandonne c'est trop gros...  
 ![Capture d'écran 2025-04-20 124019](https://github.com/user-attachments/assets/11184456-cb36-4189-a8c5-58b90d96eea6)  
 
-  
+#### Envoie du code (hash md5) dans un fichier texte (pour pouvoir lancer l'attaque après) :  
+⚠️ il faut enlever le retour à la ligne sinon quand on va créer le hash du fichier ça ne sera pas bon !  
+![Capture d'écran 2025-04-20 121551](https://github.com/user-attachments/assets/bf835c86-16eb-4db5-a058-0125a8a0f7be)  
+
+
+#### Création du hash ( pour le coup, on crée un hash du hash md5 :smile: )  
+
+
+#### Tentative avec la fameuse liste `Rockyou.txt`  
+
 
 
 
