@@ -402,7 +402,7 @@ Le fichier contenant le code à craquer s'appellera `finalhash.txt`.
 ![Capture d'écran 2025-04-20 125042](https://github.com/user-attachments/assets/b0304d72-8499-4241-a844-f3bd19ef6401)  
 
 
-
+## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:
 
 
 </details>
