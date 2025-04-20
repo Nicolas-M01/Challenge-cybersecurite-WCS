@@ -102,7 +102,7 @@ Il est bien installé.
 ### :arrow_forward: Lancement de l'attaque (enfin !)  
 
 ça ne prend que quelques secondes et le mot de passe est craqué !  
-![Capture d'écran 2025-04-14 101750](https://github.com/user-attachments/assets/63a57259-a29e-4473-92b9-c806b9ce1d99)
+![Capture d'écran 2025-04-14 101750](https://github.com/user-attachments/assets/63a57259-a29e-4473-92b9-c806b9ce1d99)  
 
 ### :white_check_mark: **`Azh792j7`** :white_check_mark:  
 
@@ -329,11 +329,6 @@ Et ça marche.
 
 ![Capture d'écran 2025-04-20 115431](https://github.com/user-attachments/assets/9d0bde1f-b3c5-4fe9-9bba-6a605569ed99)  
 ![Capture d'écran 2025-04-20 115442](https://github.com/user-attachments/assets/0c066df4-e469-479d-83ac-ea9ed7f515fb)  
-
-
-
-
-
 
 
 
