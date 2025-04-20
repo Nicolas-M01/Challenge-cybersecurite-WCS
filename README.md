@@ -394,7 +394,8 @@ Le fichier contenant le code à craquer s'appellera `finalhash.txt`.
 #### Génération d'une wordlist en alphanumérique avec 8 caractères dans les combinaisons... 23To, donc j'abandonne c'est trop gros...  
 ![Capture d'écran 2025-04-20 124019](https://github.com/user-attachments/assets/11184456-cb36-4189-a8c5-58b90d96eea6)  
 
-#### Tentative avec la fameuse liste `Rockyou.txt` que je télécharge et qui contient 14344391 mots de passe largement utilisés.   
+#### Tentative avec la fameuse liste `Rockyou.txt` que je télécharge et qui contient 14 344 391 mots de passe largement utilisés.  
+La différence est qu'ici on va utiliser des mots de passe statistiques qui sont très utilisés par les humains de façon naturelle. Alors que la génération d'une wordlist comme au dessus est complètement différente, elle génère toutes les combinaisons possibles selon des règles établies.  
 ![Capture d'écran 2025-04-20 124659](https://github.com/user-attachments/assets/c49c14bc-d861-4faa-aeb3-ccbb7d714943)  
 ![Capture d'écran 2025-04-20 124732](https://github.com/user-attachments/assets/6972b7cc-4ea2-40e5-83f1-42ee391dd1c9)  
 
@@ -402,7 +403,8 @@ Le fichier contenant le code à craquer s'appellera `finalhash.txt`.
 ![Capture d'écran 2025-04-20 125042](https://github.com/user-attachments/assets/b0304d72-8499-4241-a844-f3bd19ef6401)  
 En quelques secondes c'est réglé.  
 
-## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:
+## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:  
+On a trouvé le mot de passe de l'admin ! Je ne crois pas que ce mot de passe soit recommandé par l'ANSSI...  
 
 
 </details>
