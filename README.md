@@ -310,11 +310,6 @@ Je le change en "enabled"
 
 
 
-12432de68e64f6941732
-
-
-
-
 
 
 
@@ -323,6 +318,19 @@ Je le change en "enabled"
 ### :arrow_forward: Challenge 3 : trouver l'id  
 Mot de passe du fichier :  
 20 premiers caractères du sha512sum du numéro de coffre trouvé au challenge 2  
+#### Génération du hash en sha512  
+![Capture d'écran 2025-04-20 114006](https://github.com/user-attachments/assets/a9d9c22f-e25c-42c4-b67c-d9acca42d9a9)  
+💡 Explications :  
+* Numéro de coffre : `51`, on le met entre guillements  
+* On affiche notre numéro de coffre avec `echo`, mais on ajoute l'option `-n` pour éviter le saut de ligne  
+* Ensuite on met un pipe "|" pour envoyer la commande à `sha512sum` qui va générer un hash en sha512.  
+Et ça marche.
+#### Si on veut générer la sha512 et récupérer que les 20 premiers caractères, on ajoute la commande cut par un "pip" avec les bons paramètres  
+![Capture d'écran 2025-04-20 114843](https://github.com/user-attachments/assets/9cfbdb51-664f-473d-9327-4e389e968814)  
+![Capture d'écran 2025-04-20 115100](https://github.com/user-attachments/assets/ede8f26d-e198-41cc-9efd-c6c582150b6e)  
+
+
+
 
 
 
@@ -367,9 +375,9 @@ Date de naissance (en français) sur 6 chiffres concatenée avec le nom de famil
 ![Capture d'écran 2025-04-20 111811](https://github.com/user-attachments/assets/6ff9fa98-afb8-4c69-a576-888b39389cec)  
 Clic droit, choisir l'endroit, rentrer le bon mot de passe  
 ![Capture d'écran 2025-04-20 112224](https://github.com/user-attachments/assets/208d5c19-8d9a-4022-b531-10648bce0b55)  
-![Capture d'écran 2025-04-20 112341](https://github.com/user-attachments/assets/d80d0fbe-8d37-4b7d-940a-ce59cea552e2)
-![Capture d'écran 2025-04-20 112430](https://github.com/user-attachments/assets/9a80c339-3a64-4330-a467-e2c333c69916)
-![Capture d'écran 2025-04-20 112444](https://github.com/user-attachments/assets/4deccbc8-345c-4206-9e03-583dd3eaaef8)
+![Capture d'écran 2025-04-20 112341](https://github.com/user-attachments/assets/d80d0fbe-8d37-4b7d-940a-ce59cea552e2)  
+![Capture d'écran 2025-04-20 112430](https://github.com/user-attachments/assets/9a80c339-3a64-4330-a467-e2c333c69916)  
+![Capture d'écran 2025-04-20 112444](https://github.com/user-attachments/assets/4deccbc8-345c-4206-9e03-583dd3eaaef8)  
 
 
 
