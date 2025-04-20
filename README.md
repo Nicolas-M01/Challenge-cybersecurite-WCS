@@ -406,7 +406,7 @@ En quelques secondes c'est réglé. :key: :unlock:
 ## :white_check_mark: ☠️ **``lolo1980``** ☠️ :white_check_mark:  
 J'ai trouvé le mot de passe de l'admin ! Je ne crois pas que ce mot de passe soit recommandé par l'ANSSI...  
 
-
+:white_check_mark::white_check_mark::white_check_mark:🏴‍☠️💰💰💰💰💰💰💰🏴‍☠️:white_check_mark::white_check_mark::white_check_mark:
 
 
 
